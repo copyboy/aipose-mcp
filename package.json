@@ -1,0 +1,41 @@
+{
+  "name": "@aipose/mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) Server for AIPose (aipose.org) - AI Pose Transfer & Digital Photo Studio Engine",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "aipose",
+    "ai-pose",
+    "pose-transfer",
+    "dwpose",
+    "virtual-try-on",
+    "claude-desktop",
+    "cursor-mcp"
+  ],
+  "homepage": "https://aipose.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/copyboy/aipose-mcp.git"
+  },
+  "license": "MIT",
+  "author": "AIPose Team <team@aipose.org>",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "aipose-mcp": "./bin/aipose-mcp.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/aipose-mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^0.2.1"
+  }
+}
